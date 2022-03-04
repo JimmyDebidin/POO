@@ -5,8 +5,8 @@ require_once "highway.php";
 final class MotorWay extends Highway
 {
 
-    private int $nbLanes = 4;
-    private int $maxSpeed = 130;
+    protected int $nbLanes = 4;
+    protected int $maxSpeed = 130;
 
 
     public function addVehicle($vehicle)

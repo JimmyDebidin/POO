@@ -6,8 +6,8 @@ final class ResidentialWay extends Highway
 {
 
 
-    private int $nbLanes = 2;
-    private int $maxSpeed = 50;
+    protected int $nbLanes = 2;
+    protected int $maxSpeed = 50;
 
 
     public function addVehicle($vehicle)
